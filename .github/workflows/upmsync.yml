@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       base: https://dl.google.com/games/registry/unity/com.google.firebase.remote-config/com.google.firebase.remote-config
-      version: 13.13.0
+      version: 13.14.0
     steps:
       - uses: actions/checkout@v3
       - name: Config
